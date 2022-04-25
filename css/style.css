@@ -34,10 +34,10 @@
     background-color: #001428;
 }
 .box-menu ,.box-canlander{
-    flex: 2;
+    width: 15%;
 }
 .box-btn, .box-date-day{
-    flex: 10;
+    width: 85%;
 }
 .custom-btn{
     background-color: #586470;
@@ -140,6 +140,31 @@
 
 
 
+/* for mobile */
+
+@media screen and (max-width: 575px) {
+    .box-menu ,.box-canlander{
+        width: 20%;
+    }
+    .box-btn, .box-date-day{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -161,3 +186,6 @@
         margin: auto !important;
     }
 }
+
+
+
