@@ -102,15 +102,33 @@
 .scedule-table .fubo-img{
     width: 4rem !important;
 }
-
-
-
-
-
-
-
-
-
+/* ---------------------------------- news page ------------------ */
+.pagination ul li{
+    font-size: .8rem;
+}
+.news-post a{
+    color: #009bff;
+}
+.news-img{
+    width: 13rem;
+    height: 13rem;
+}
+/* .news-post .news-discription{
+    font-size: .9rem;
+} */
+.news-img img{
+    object-fit: cover;
+}
+.contact-form .required{
+    font-size: .7rem;
+}
+.contact-form input:not(input[type="submit"]),.contact-form textarea:focus{
+    background-color: white !important;
+    box-shadow: none !important;
+}
+.contact-form input[type="submit"]{
+    border-radius: 2rem !important;
+}
 
 
 
