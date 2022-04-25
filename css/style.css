@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --bs-border-color: #ced4da;
+}
+
+/* -----------------bootstrap overwrite */
+.navbar-toggler{
+    right: 1rem;
+    top: .4rem;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.bs-border-color{
+    color: #ced4da;
+}
+.search-icon-top{
+    right: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.nav-link{
+    font-size: .8rem;
+}
+/* -------------------------- btn-box-------------------- */
+.many-box{
+    background-color: #001428;
+}
+.box-menu ,.box-canlander{
+    flex: 2;
+}
+.box-btn, .box-date-day{
+    flex: 10;
+}
+.custom-btn{
+    background-color: #586470;
+    font-size: .8rem;
+}
+.custom-btn:hover{
+    background-color: #0092d0;
+}
+/* -------------------------------------------icon-styling------------------------- */
+.svg-inline--fa{
+    font-size: 1.2rem !important;
+}
+.diffrent-bg{
+    background-color: #00466b;
+}
+/* ------------------------------ calander design--------------------------------- */
+.cal-header{
+    background-color: #334353;
+}
+.custom-calander{
+    width: 250px;
+    left: 0;
+}
+.weekdays strong{
+    width: calc(100% / 7);
+    padding: 5px;
+}
+.date span{
+    width: calc(100%/7);
+    text-align: center;
+    padding: 5px;
+}
+.date{
+    background-color: #001428;
+}
+.toggle{
+    display: none !important;
+
+}
+.box-date-day button{
+    width: 3rem;
+    font-size: .8rem;
+}
+.today{
+    background-color: #0092d0;
+}
+.tomorrow:hover{
+    background-color: #0092d0;
+}
+.yesterday:hover{
+    background-color: #00466b;
+}
+.scedule .svg-inline--fa{
+    font-size: 1.8rem !important;
+}
+.teams small{
+    font-size: .8rem;
+}
+.teams a{
+    font-size: .7rem;
+}
+.scedule-table .fubo-img{
+    width: 4rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    .container{
+        padding-right: 7rem !important;
+        padding-left: 7rem !important;
+        margin: auto !important;
+    }
+}
