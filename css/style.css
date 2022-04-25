@@ -122,7 +122,7 @@
 .contact-form .required{
     font-size: .7rem;
 }
-.contact-form input:not(input[type="submit"]),.contact-form textarea:focus{
+.contact-form input:not(input[type="submit"]):focus,.contact-form textarea:focus{
     background-color: white !important;
     box-shadow: none !important;
 }
