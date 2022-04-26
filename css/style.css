@@ -3,12 +3,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    
     font-family: 'Open Sans', sans-serif;
 }
 :root{
     --bs-border-color: #ced4da;
+    --primary-color : #009bff;
+    --primary-gray: #586470;
 }
-
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
 /* -----------------bootstrap overwrite */
 .navbar-toggler{
     right: 1rem;
@@ -40,7 +50,7 @@
     width: 85%;
 }
 .custom-btn{
-    background-color: #586470;
+    background-color: var(--primary-gray);
     font-size: .8rem;
 }
 .custom-btn:hover{
@@ -82,10 +92,10 @@
     font-size: .8rem;
 }
 .today{
-    background-color: #0092d0;
+    background-color: var(--primary-color);
 }
 .tomorrow:hover{
-    background-color: #0092d0;
+    background-color: var(--primary-color);
 }
 .yesterday:hover{
     background-color: #00466b;
@@ -102,12 +112,15 @@
 .scedule-table .fubo-img{
     width: 4rem !important;
 }
+.scedule a:hover{
+    background-color: #e7ecf0;
+}
 /* ---------------------------------- news page ------------------ */
 .pagination ul li{
     font-size: .8rem;
 }
 .news-post a{
-    color: #009bff;
+    color: var(--primary-color);
 }
 .news-img{
     width: 13rem;
@@ -130,6 +143,63 @@
     border-radius: 2rem !important;
 }
 
+/* ---------------------list-items----------------- */
+.list-items span{
+    font-size: .7rem;
+}
+
+/*  --------------- live match today----------------- */
+.back-btn{
+    background-color: var(--primary-color);
+    font-size: .8rem;
+}
+.back-btn-parent button{
+    left:0;
+}
+.back-btn .svg-inline--fa{
+    font-size: .7rem !important;
+}
+.live-match-content .img-left,.live-match-content .img-right{
+    width: 100px;
+}
+.starting-time-circle{
+    width: 70px;
+    height: 70px;
+    border-color: aqua !important;
+}
+
+.league-and-team a{
+    color: var(--primary-gray);
+}
+.league-and-team ul li:first-child::after{
+    content: ".";
+    position: absolute;
+    transform: translateY(-45%);
+    font-size: 2rem;
+    left: 120%;
+}
+.team-brand .svg-inline--fa{
+    font-size: .7rem !important;
+}
+.team-brand p,
+.team-brand a,
+.team-brand h6
+{
+    font-size: .9rem;
+}
+.team-brand strong{
+    font-size: .7rem;
+}
+.team-brand a:hover h6{
+    text-decoration: underline;
+}
+.discription time, .discription span{
+    color: var(--primary-gray);
+}
+
+
+
+
 
 
 
@@ -149,10 +219,24 @@
     .box-btn, .box-date-day{
         width: 80%;
     }
+    .live-team-name{
+        font-size: 60%;
+    }
+    /* .live-match-content .img-left,.live-match-content .img-right{
+        width: 60%;
+    } */
+    .starting-time-circle{
+        font-size: 80%;
+    }
 }
 
 
-
+@media screen and (max-width: 575px) {
+    
+    .live-team-name{
+        font-size: 80%;
+    }
+}
 
 
 
