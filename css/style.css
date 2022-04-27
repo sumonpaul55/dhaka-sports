@@ -196,6 +196,39 @@ body{
 .discription time, .discription span{
     color: var(--primary-gray);
 }
+/*  ------------------------------ settings pages --------------------------------- */
+.settings-content .active{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    border-color: var(--primary-color) !important;
+}
+.settings-content .nav-link{
+    border-radius: 0;
+}
+.settings-content .tab-pane{
+    background-color: initial !important;
+    color: black !important;
+    border-top: 1px solid var(--primary-color);
+}
+/* ------------------------ bs overwrite end --------------------------- */
+.settings-top{
+    border-width: 1rem !important;
+}
+.select-channel-more{
+    background-color: #eeeeee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
