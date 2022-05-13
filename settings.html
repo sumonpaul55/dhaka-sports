@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
-    <title>live match</title>
+    <title>Settings</title>
 </head>
 <body class="bg-light">
     <header>
@@ -93,40 +93,503 @@
                                         <h4 class="tab-title fw-bold">TV Channels</h4>
                                         <div class="d-flex">
                                             <div class="select-all mx-3">
-                                                <input type="radio" name="select-all-none" id="all">
-                                                <label for="all">Select all</label>
+                                                <label for="all">
+                                                    <input type="radio" name="select-all-none" id="all">
+                                                    <span class="ms-1">Select all</span>
+                                                </label>
                                             </div>
-                                            <div class="select-all mx-3">
-                                                <input type="radio" name="select-all-none" id="none">
-                                                <label for="none">None</label>
+                                            <div class="select-none mx-3">
+                                                <label for="none">
+                                                    <input type="radio" name="select-all-none" id="none">
+                                                    <span class="ms-1">none</span>
+                                                </label>
                                             </div>
                                             <h6 class="m-0"><a class="text-decoration-none p-0" href="#">Reset my settings</a></h6>
                                         </div>
                                     </div>
                                     <div class="select-channel-more py-2">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="select-channel1">
-                                                    <input type="radio" name="select-channel" id="bein">
-                                                    <label for="bein">BeIN sports</label>
+                                        <div class="row my-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="bein">
+                                                                <input type="checkbox" name="select-channel" id="bein">
+                                                                <span class="ms-1">BeIN sports</span>
+                                                            </label>
+                                                        </div>
+                                                        <img class="img-fluid" src="img/bein-sports.webp" alt="">
+                                                    </div>
+                                                </div>
+                                                
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="bt">
+                                                                <input type="checkbox" name="select-channel" id="bt">
+                                                                <span class="ms-1">BT Sport 1</span>    
+                                                            </label>
+                                                        </div>
+                                                        <img class="img-fluid" src="img/BT-Sport-1.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div><!--col-md-4-->
-                                            <div class="col-md-4">
-                                                <div class="select-channel">
-
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="cbc">
+                                                                <input type="checkbox" name="select-channel" id="cbc">
+                                                                <span class="ms-1">CBS Sports</span>    
+                                                            </label>
+                                                        </div>
+                                                        <img class="img-fluid" src="img/CBS-Sports-1.webp" alt="">
+                                                    </div>
                                                 </div>
                                             </div><!--col-md-4-->
-                                            <div class="col-md-4">
-                                                <div class="select-channel">
-
+                                        </div><!--row-->
+                                        <div class="row my-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="espn">
+                                                                <input type="checkbox" name="select-channel" id="espn">
+                                                                <span class="ms-1">ESPN+</span>    
+                                                            </label>
+                                                        </div>
+                                                        <img class="img-fluid" src="img/ESPN-2-e1627923253459.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            
+                                                            <label for="fox">
+                                                                <input type="checkbox" name="select-channel" id="fox">
+                                                                <span class="ms-1">FOX Sports</span>    
+                                                            </label>
+                                                        </div>
+                                                        <img class="img-fluid" src="img/Fox-Sports.jpg" alt="">
+                                                    </div>
                                                 </div>
                                             </div><!--col-md-4-->
-                                        </div>
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="fs">
+                                                                <input type="checkbox" name="select-channel" id="fs">
+                                                                <span class="ms-1">FS1</span>
+                                                            </label>
+                                                        </div>
+                                                        <img class="img-fluid" src="img/fubo-tv-logo.webp" alt="">
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
                                     </div>
                                 </div><!--tv-channels-content-->
                             </div><!--tab-pane-->
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">content sports and leagues</div>
-                          </div>
+                            <!-- ====================================================== 2nd tab========================================================== -->
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="tv-channels-content">
+                                    <div class="tv-channel-content-top d-flex justify-content-between align-items-center mt-5">
+                                        <h4 class="tab-title fw-bold">Baseball</h4>
+                                        <div class="d-flex align-items-center">
+                                            <div class="select-all mx-3">
+                                                <label for="all2">
+                                                    <input type="radio" name="select-all-none" id="all2">
+                                                    <span class="ms-1"> Select all</span>
+                                                </label>
+                                            </div>
+                                            <div class="select-none mx-3">
+                                                <label for="none2">
+                                                    <input type="radio" name="select-all-none" id="none2">
+                                                    <span class="ms-1">None</span>    
+                                                </label>
+                                            </div>
+                                            <h6 class="m-0"><a class="text-decoration-none p-0" href="#">Reset my settings</a></h6>
+                                        </div>
+                                    </div><!--tv-channel content top-->
+                                    <div class="select-channel-more py-2">
+                                        <div class="row my-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="mlb">
+                                                                <input type="checkbox" name="select-channel" id="mlb">
+                                                                <span class="ms-1">MLB</span>    
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
+                                    </div>
+                                </div><!--tv-channels-content-->
+                                <div class="tv-channels-content">
+                                    <div class="tv-channel-content-top d-flex justify-content-between align-items-center mt-5">
+                                        <h4 class="tab-title fw-bold text-capitalize">bascketball</h4>
+                                        <div class="d-flex align-items-center">
+                                            <div class="select-all mx-3">
+                                                <label for="all3">
+                                                    <input type="radio" name="select-all-none" id="all3">
+                                                    <span class="ms-1"> Select all</span>
+                                                </label>
+                                            </div>
+                                            <div class="select-none mx-3">
+                                                <label for="none3">
+                                                    <input type="radio" name="select-all-none" id="none3">
+                                                    <span class="ms-1">None</span>    
+                                                </label>
+                                            </div>
+                                            <h6 class="m-0"><a class="text-decoration-none p-0" href="#">Reset my settings</a></h6>
+                                        </div>
+                                    </div><!--tv-channel content top-->
+                                    <div class="select-channel-more py-2">
+                                        <div class="row mb-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="nba">
+                                                                <input type="checkbox" name="select-channel" id="nba">
+                                                                <span class="ms-1"> NBA</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="nbaall">
+                                                                <input type="checkbox" name="select-channel" id="nbaall">
+                                                                <span class="ms-1"> NBA All star</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="summer">
+                                                                <input type="checkbox" name="select-channel" id="summer">
+                                                                <span class="ms-1"> NBA Summer League</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
+                                    </div>
+                                </div><!--tv-channels-content-->
+                                <div class="tv-channels-content">
+                                    <div class="tv-channel-content-top d-flex justify-content-between align-items-center mt-5">
+                                        <h4 class="tab-title fw-bold text-capitalize">boxing</h4>
+                                        <div class="d-flex align-items-center">
+                                            <div class="select-all mx-3">
+                                                <label for="all-boxing">
+                                                    <input type="radio" name="select-all-none" id="all-boxing">
+                                                    <span class="ms-1"> Select all</span>
+                                                </label>
+                                            </div>
+                                            <div class="select-none mx-3">
+                                                <label for="none-boxing">
+                                                    <input type="radio" name="select-all-none" id="none-boxing">
+                                                    <span class="ms-1">None</span>    
+                                                </label>
+                                            </div>
+                                            <h6 class="m-0"><a class="text-decoration-none p-0" href="#">Reset my settings</a></h6>
+                                        </div>
+                                    </div><!--tv-channel content top-->
+                                    <div class="select-channel-more py-2">
+                                        <div class="row mb-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Bantamweight">
+                                                                <input type="checkbox" name="select-channel" id="Bantamweight">
+                                                                <span class="ms-1">Bantamweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Cruiserweight">
+                                                                <input type="checkbox" name="select-channel" id="Cruiserweight">
+                                                                <span class="ms-1">Cruiserweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Flyweight">
+                                                                <input type="checkbox" name="select-channel" id="Flyweight">
+                                                                <span class="ms-1">Flyweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
+                                        <div class="row mb-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Heavyweight">
+                                                                <input type="checkbox" name="select-channel" id="Heavyweight">
+                                                                <span class="ms-1">Heavyweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Light">
+                                                                <input type="checkbox" name="select-channel" id="Light">
+                                                                <span class="ms-1">Light Heavyweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Lightweight">
+                                                                <input type="checkbox" name="select-channel" id="Lightweight">
+                                                                <span class="ms-1">Lightweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
+                                    </div>
+                                </div><!--tv-channels-content-->
+                                <div class="tv-channels-content">
+                                    <div class="tv-channel-content-top d-flex justify-content-between align-items-center mt-5">
+                                        <h4 class="tab-title fw-bold text-capitalize">Cricket</h4>
+                                        <div class="d-flex align-items-center">
+                                            <div class="select-all mx-3">
+                                                <label for="all-boxing">
+                                                    <input type="radio" name="select-all-none" id="all-boxing">
+                                                    <span class="ms-1"> Select all</span>
+                                                </label>
+                                            </div>
+                                            <div class="select-none mx-3">
+                                                <label for="none-boxing">
+                                                    <input type="radio" name="select-all-none" id="none-boxing">
+                                                    <span class="ms-1">None</span>    
+                                                </label>
+                                            </div>
+                                            <h6 class="m-0"><a class="text-decoration-none p-0" href="#">Reset my settings</a></h6>
+                                        </div>
+                                    </div><!--tv-channel content top-->
+                                    <div class="select-channel-more py-2">
+                                        <div class="row mb-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Bantamweight">
+                                                                <input type="checkbox" name="select-channel" id="Bantamweight">
+                                                                <span class="ms-1">Bantamweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Cruiserweight">
+                                                                <input type="checkbox" name="select-channel" id="Cruiserweight">
+                                                                <span class="ms-1">Cruiserweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Flyweight">
+                                                                <input type="checkbox" name="select-channel" id="Flyweight">
+                                                                <span class="ms-1">Flyweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
+                                        <div class="row mb-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Heavyweight">
+                                                                <input type="checkbox" name="select-channel" id="Heavyweight">
+                                                                <span class="ms-1">Heavyweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Light">
+                                                                <input type="checkbox" name="select-channel" id="Light">
+                                                                <span class="ms-1">Light Heavyweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Lightweight">
+                                                                <input type="checkbox" name="select-channel" id="Lightweight">
+                                                                <span class="ms-1">Lightweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
+                                    </div>
+                                </div><!--tv-channels-content-->
+                                <div class="tv-channels-content">
+                                    <div class="tv-channel-content-top d-flex justify-content-between align-items-center mt-5">
+                                        <h4 class="tab-title fw-bold text-capitalize">Cycling</h4>
+                                        <div class="d-flex align-items-center">
+                                            <div class="select-all mx-3">
+                                                <label for="cycle-all">
+                                                    <input type="radio" name="select-all-none" id="cycle-all">
+                                                    <span class="ms-1"> Select all</span>
+                                                </label>
+                                            </div>
+                                            <div class="select-none mx-3">
+                                                <label for="cylce-none">
+                                                    <input type="radio" name="select-all-none" id="cylce-none">
+                                                    <span class="ms-1">None</span>    
+                                                </label>
+                                            </div>
+                                            <h6 class="m-0"><a class="text-decoration-none p-0" href="#">Reset my settings</a></h6>
+                                        </div>
+                                    </div><!--tv-channel content top-->
+                                    <div class="select-channel-more py-2">
+                                        <div class="row mb-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Bantamweight">
+                                                                <input type="checkbox" name="select-channel" id="Bantamweight">
+                                                                <span class="ms-1">Bantamweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Cruiserweight">
+                                                                <input type="checkbox" name="select-channel" id="Cruiserweight">
+                                                                <span class="ms-1">Cruiserweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Flyweight">
+                                                                <input type="checkbox" name="select-channel" id="Flyweight">
+                                                                <span class="ms-1">Flyweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
+                                        <div class="row mb-2">
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Heavyweight">
+                                                                <input type="checkbox" name="select-channel" id="Heavyweight">
+                                                                <span class="ms-1">Heavyweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Light">
+                                                                <input type="checkbox" name="select-channel" id="Light">
+                                                                <span class="ms-1">Light Heavyweight</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                            <div class="col-md-4 my-1 my-md-0">
+                                                <div class="select-channel py-2 px-3 rounded">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="chan-name">
+                                                            <label for="Lightweight">
+                                                                <input type="checkbox" name="select-channel" id="Lightweight">
+                                                                <span class="ms-1">Lightweight Championship</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--col-md-4-->
+                                        </div><!--row-->
+                                    </div>
+                                </div><!--tv-channels-content-->
+                            </div><!--tab pane-->
+                          </div><!--settings-tab-->
                     </div>
                 </div><!--live-match-content-->
             </div>

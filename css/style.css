@@ -197,6 +197,15 @@ body{
     color: var(--primary-gray);
 }
 /*  ------------------------------ settings pages --------------------------------- */
+label{
+    font-size: .9rem;
+}
+.settings-top{
+    border-width: 1rem !important;
+}
+.select-channel-more .select-channel{
+    background-color: #eeeeee;
+}
 .settings-content .active{
     background-color: var(--primary-color) !important;
     color: white !important;
@@ -210,13 +219,12 @@ body{
     color: black !important;
     border-top: 1px solid var(--primary-color);
 }
+.select-channel-more img{
+    width: 4rem;
+    height: 2.5rem;
+}
 /* ------------------------ bs overwrite end --------------------------- */
-.settings-top{
-    border-width: 1rem !important;
-}
-.select-channel-more{
-    background-color: #eeeeee;
-}
+
 
 
 
