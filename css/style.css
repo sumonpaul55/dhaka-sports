@@ -196,6 +196,17 @@ body{
 .discription time, .discription span{
     color: var(--primary-gray);
 }
+/* =================================== footer design starts from here ================================== */
+footer a{
+    font-size: .9rem;
+    transition: all .4s;
+}
+footer a:hover{
+    color: #009bff !important;
+}
+footer a::selection{
+    background-color: #303030 !important;
+}
 /*  ------------------------------ settings pages --------------------------------- */
 label{
     font-size: .9rem;
@@ -224,26 +235,6 @@ label{
     height: 2.5rem;
 }
 /* ------------------------ bs overwrite end --------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
