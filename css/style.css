@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    
+    background: #f6f6f6;
     font-family: 'Open Sans', sans-serif;
 }
 :root{
@@ -235,10 +235,25 @@ label{
     height: 2.5rem;
 }
 /* ------------------------ bs overwrite end --------------------------- */
-
-
-
-
+/* ----------------------------- ---------------------------- post page start --------------------------------------- */
+.post-details span, .pagination li a{
+    color: gray;
+}
+.post-img{
+    height: 405px;
+}
+.post-img img{
+    object-fit: fill;
+}
+.news-discription{
+    font-family: sans-serif;
+    font-size: .9rem;
+    color: #545454;
+}
+.thumbnail img{
+    height: 165px;
+    width: 155px;
+}
 
 
 
