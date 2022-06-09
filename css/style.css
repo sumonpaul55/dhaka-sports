@@ -207,6 +207,11 @@ footer a:hover{
 footer a::selection{
     background-color: #303030 !important;
 }
+/* ----------------------------------- copyrights------------------------------- */
+.copyrights{
+    background-color: #000000;
+    border-color: #414242 !important;
+}
 /*  ------------------------------ settings pages --------------------------------- */
 label{
     font-size: .9rem;
