@@ -196,6 +196,17 @@ body{
 .discription time, .discription span{
     color: var(--primary-gray);
 }
+/* =================================== adertisement css ================================================= */
+.advertisement{
+    height: 280px;
+}
+.advertisement .add-content{
+    background: #c7c7c7;
+}
+.small-adds{
+    width: 728px;
+    height: 90px;
+}
 /* =================================== footer design starts from here ================================== */
 footer a{
     font-size: .9rem;
