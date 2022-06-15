@@ -13,11 +13,11 @@ body{
     --primary-color : #009bff;
     --primary-gray: #586470;
 }
-#page, .container {
+.container {
     margin-right: auto;
     margin-left: auto;
-    max-width: 1080px !important;
-    min-width: 240px !important;
+    max-width: 1080px;
+    min-width: 240px;
 }
 .show{
     display: block;
