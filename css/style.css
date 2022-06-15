@@ -13,6 +13,12 @@ body{
     --primary-color : #009bff;
     --primary-gray: #586470;
 }
+#page, .container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1080px !important;
+    min-width: 240px !important;
+}
 .show{
     display: block;
 }
@@ -328,13 +334,7 @@ label{
 
 
 
-@media screen and (min-width: 992px) {
-    .container{
-        padding-right: 7rem !important;
-        padding-left: 7rem !important;
-        margin: auto !important;
-    }
-}
+
 
 
 
